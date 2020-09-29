@@ -14,7 +14,7 @@ IconCom.loadFont();
 export function Home({ navigation }) {
  
   const[peso,setPeso]= React.useState(0.00);
-  const[altura, setAltura]= React.useState(0.000); 
+  const[altura, setAltura]= React.useState(0.00); 
   const[IMC, setIMC]= React.useState(0.000); 
   const[idade, setIdade]= React.useState(0);
 
@@ -128,7 +128,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     marginVertical:15,
     fontSize:20,
-    color:"#8f8f8f",
+    color:"#7d7d7d",
     fontStyle:"italic",
     backgroundColor:"#dbdbdb",
     borderColor:"#dbdbdb",

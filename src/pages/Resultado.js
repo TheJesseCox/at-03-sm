@@ -23,7 +23,7 @@ export function Resultado(props) {
   return (
     <View style={styles.container}>
       <View style={styles.cabecalhoView}><StatusBar style="auto" />
-      <IconCom style={{alignSelf:'flex-start'}} name="ios-menu" size={27}></IconCom>
+      <IconCom style={{alignSelf:'flex-start'}} name="ios-menu" size={27} onPress={() => navigation.openDrawer()}></IconCom>
         <Text style={styles.titulo}>ACADEMIA 4137 FITNESS</Text>
         <Text style={styles.subtitulo}>Mede teu índice de massa corporal... <IconCom name="md-body" size={20}></IconCom></Text>
       </View>

@@ -4,6 +4,7 @@ import { createDrawerNavigator } from '@react-navigation/drawer';
 import React from 'react';
 import { Home } from './../pages/Home';
 import { Resultado } from './../pages/Resultado';
+import { Infos } from './../pages/Infos';
 
 const Drawer = createDrawerNavigator();
 
@@ -21,6 +22,7 @@ export function Routes() {
 
           <Drawer.Screen name="Home" component={Home}/>
           <Drawer.Screen name="Resultado" component={Resultado}/>
+          <Drawer.Screen name="Informações" component={Infos}/>
         </Drawer.Navigator>
       </NavigationContainer>
     );
